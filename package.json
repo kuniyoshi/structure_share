@@ -1,0 +1,26 @@
+{
+  "name": "structure_share",
+  "version": "0.0.1",
+  "description": "a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.0.0"
+  },
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es6",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "types": [
+      "node"
+    ]
+  }
+}
